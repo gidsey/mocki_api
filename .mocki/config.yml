@@ -24,7 +24,7 @@ endpoints:
           "max_total": 10000,
           "merchant_count": 81877,
           "max_requests": 100000,
-          "bill_day": 8a,
+          "bill_day": 8b,
           "request_count": 143,
           "product_count": 736888205,
           "max_length": 100
