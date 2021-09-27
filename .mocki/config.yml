@@ -8,3 +8,11 @@ endpoints:
       - statusCode: 200
         body:
           message: Hello from Mocki!
+
+
+  - path: /hello2
+    method: get
+    responses:
+      - statusCode: 200
+        body:
+          message: Hello from 2Mocki!
