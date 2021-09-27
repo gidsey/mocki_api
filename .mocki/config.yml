@@ -15,7 +15,7 @@ endpoints:
     responses:
       - statusCode: 200
         body:
-          message: {
+          {
             "status": {
               "network_count": 220,
               "plan_id": 10100000,
