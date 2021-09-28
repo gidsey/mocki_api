@@ -1,0 +1,13 @@
+name: mocki
+port: 3000
+endpoints:
+
+  - path: /hello
+    method: post
+    responses:
+      - statusCode: 200
+        headers:
+          - name: content-type
+            value: application/json
+        body: |
+          {"message": "Hello from 2Mocki!"}
