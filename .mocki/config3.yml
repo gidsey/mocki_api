@@ -1,2 +1,11 @@
-name: mocki
+me: mocki
 port: 3000
+endpoints:
+- path: \hello
+  method: post
+  responses:
+  - status code: 200
+    headers:
+    - name: content-type
+      value: application/json
+    body: '|'
