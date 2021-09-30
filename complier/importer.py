@@ -3,7 +3,7 @@ import yaml
 
 def compile_yaml():
     data = {
-        "me": "mocki",
+        "name": "mocki",
         "port": 3000,
         "endpoints":
 
@@ -18,7 +18,7 @@ def compile_yaml():
                                 "name": "content-type",
                                 "value": "application/json"
                             }],
-                            "body": '|'
+                            "body": "\|"
                         }
                     ]}
             ]

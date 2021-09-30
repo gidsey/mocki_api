@@ -1,4 +1,4 @@
-me: mocki
+name: mocki
 port: 3000
 endpoints:
 - path: \hello
@@ -8,4 +8,4 @@ endpoints:
     headers:
     - name: content-type
       value: application/json
-    body: '|'
+    body: \|
