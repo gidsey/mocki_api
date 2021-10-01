@@ -12,6 +12,25 @@ endpoints:
         body: |
           {"message": "Hello from 2Mocki!"}
 
+  - path: /wp-test-ok
+    method: post
+    responses:
+      - statusCode: 200
+        headers:
+          - name: content-type
+            value: application/json
+        body: |
+          {"message": "OK!"}
+
+  - path: /wp-test-fail
+    method: post
+    responses:
+      - statusCode: 500
+        headers:
+          - name: content-type
+            value: application/json
+        body: |
+          {"message": "Fail"}
 
 
   - path: /80504-9-shoes
