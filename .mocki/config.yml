@@ -15,7 +15,7 @@ endpoints:
   - path: /wp-integration-test
     method: post
     responses:
-      - statusCode: 200
+      - statusCode: 201
         headers:
           - name: content-type
             value: application/json
