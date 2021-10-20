@@ -1,0 +1,77 @@
+
+{
+    "status": {
+        "network_count": 220,
+        "plan_id": 30150000,
+        "user_id": 52483,
+        "max_total": 10000,
+        "merchant_count": 83329,
+        "max_requests": 150000,
+        "bill_day": 8,
+        "request_count": 121225,
+        "product_count": 782012735,
+        "max_length": 100
+    },
+    "merchants": [
+        {
+            "product_count": 1,
+            "merchant": "Atterley",
+            "merchant_id": 38363,
+            "source_id": 47,
+            "source": "Rakuten UK"
+        }
+    ],
+    "version": "0.3",
+    "length": 1,
+    "found_count": 1,
+    "products": [
+        {
+            "classid": "60",
+            "merchant": "Atterley",
+            "color": "Brown",
+            "image": "https://avoir-media-2.fra1.digitaloceanspaces.com/mocki/atterley/7e933880b2180cd7f77c8e5073e4000c.jpeg",
+            "currency": "GBP",
+            "instock": 1,
+            "salediscount": 45,
+            "discounttype": "amount",
+            "size": "37.5,38,35,35",
+            "sku": "drestige_F3048219",
+            "lastupdated": "2021-09-30 00:49:26",
+            "source": "Rakuten UK",
+            "direct_url": "https://www.atterley.com/dolce-gabbana-boots-boots-women-brown-3",
+            "price": 89427,
+            "onsale": 1,
+            "category": "Clothing & Accessories > Shoes",
+            "description": "DOLCE & GABBANA boots Women 100% leather",
+            "tags": "adult; brown; female",
+            "brand": "Dolce & Gabbana",
+            "finalprice": 49162,
+            "trackingpixel": "https://ad.linksynergy.com/fs-bin/show?id=@@@&bids=934064.18779401870&type=15&subid=0",
+            "saleprice": 49162,
+            "ref_url": "https://click.linksynergy.com/link?id=@@@&offerid=934064.18779401870&type=15&u1=###&murl=https%3A%2F%2Fwww.atterley.com%2Fdolce-gabbana-boots-boots-women-brown-3",
+            "merchant_id": 38363,
+            "manufacturer": "Dolce & Gabbana",
+            "time_updated": "2021-10-07 03:58:17",
+            "name": "DOLCE & GABBANA Boots boots Women Brown",
+            "url": "https://click.linksynergy.com/link?id=@@@&offerid=934064.18779401870&type=15&murl=https%3A%2F%2Fwww.atterley.com%2Fdolce-gabbana-boots-boots-women-brown-3",
+            "gender": "Female",
+            "age": "Adult",
+            "pixel": "https://ad.linksynergy.com/fs-bin/show?id=@@@&bids=934064.18779401870&type=15&subid=0",
+            "source_id": 47,
+            "model": "DRESTIGE F3048219",
+            "_id": 3836301037922313
+        }
+    ],
+    "time": 7886,
+    "networks": [
+        {
+            "group": "Rakuten",
+            "source": "Rakuten UK",
+            "source_id": 47,
+            "product_count": 1,
+            "group_id": 10022,
+            "type": "products"
+        }
+    ],
+    "result_count": 1
+}

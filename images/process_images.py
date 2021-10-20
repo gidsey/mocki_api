@@ -15,7 +15,7 @@ def process_images():
         data = file.get('data')
         changed = False
 
-        for product in data.get('products'):
+        for product in data.get('products', []):
             merchant = product.get('merchant')
             image_url = product.get('image')
             key = image_url.rsplit('/', 1)[1]
