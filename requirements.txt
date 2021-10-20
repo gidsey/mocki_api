@@ -1,1 +1,4 @@
+boto3==1.17.79
+pillow==8.1.2
 PyYAML==5.4.1
+requests==2.25.1

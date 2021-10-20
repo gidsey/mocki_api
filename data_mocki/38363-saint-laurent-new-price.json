@@ -1,0 +1,74 @@
+      {
+    "status": {
+        "network_count": 220,
+        "plan_id": 10100000,
+        "user_id": 52483,
+        "max_total": 10000,
+        "merchant_count": 82551,
+        "max_requests": 100000,
+        "bill_day": 8,
+        "request_count": 1946,
+        "product_count": 740986097,
+        "max_length": 100
+    },
+    "merchants": [
+        {
+            "product_count": 454,
+            "merchant": "Farfetch",
+            "merchant_id": 80504,
+            "source_id": 811,
+            "source": "Partnerize UK"
+        }
+    ],
+    "version": "0.3",
+    "length": 1,
+    "found_count": 454,
+    "products": [  {
+            "classid": "60",
+            "merchant": "Atterley",
+            "color": "Black",
+            "image": "https://avoir-media-2.fra1.digitaloceanspaces.com/mocki/atterley/e3cbf48dc09e6e19a41a84b625887029.jpeg",
+            "currency": "GBP",
+            "instock": 1,
+            "salediscount": 0,
+            "discounttype": "amount",
+            "size": "39,39.5,36,37,37.5,36.5",
+            "sku": "mclabels_620673DWE001000",
+            "lastupdated": "2021-08-26 00:42:24",
+            "source": "Rakuten UK",
+            "direct_url": "https://www.atterley.com/saint-laurent-women-s-620673dwe001000-black-leather-sandals-9",
+            "price": 68935,
+            "onsale": 0,
+            "category": "Clothing & Accessories > Shoes",
+            "description": "SANDALS SAINT LAURENT, LEATHER 100%, color BLACK, Heel 110mm, Leather sole, Model Name TRIBUTE, CO, product code 620673DWE001000",
+            "tags": "adult; black; female",
+            "brand": "Saint Laurent Paris",
+            "finalprice": 98935,
+            "trackingpixel": "https://ad.linksynergy.com/fs-bin/show?id=@@@&bids=934064.19341365170&type=15&subid=0",
+            "ref_url": "https://click.linksynergy.com/link?id=@@@&offerid=934064.19341365170&type=15&u1=###&murl=https%3A%2F%2Fwww.atterley.com%2Fsaint-laurent-women-s-620673dwe001000-black-leather-sandals-9",
+            "merchant_id": 38363,
+            "manufacturer": "Saint Laurent Paris",
+            "time_updated": "2021-08-29 13:50:17",
+            "name": "SAINT LAURENT WOMEN'S 620673DWE001000 BLACK LEATHER SANDALS",
+            "url": "https://click.linksynergy.com/link?id=@@@&offerid=934064.19341365170&type=15&murl=https%3A%2F%2Fwww.atterley.com%2Fsaint-laurent-women-s-620673dwe001000-black-leather-sandals-9",
+            "gender": "Female",
+            "age": "Adult",
+            "pixel": "https://ad.linksynergy.com/fs-bin/show?id=@@@&bids=934064.19341365170&type=15&subid=0",
+            "source_id": 47,
+            "model": "MCLABELS 620673DWE001000",
+            "_id": 3836301098405533
+        }
+         ],
+    "time": 436,
+    "networks": [
+        {
+            "group": "Rakuten",
+            "source": "Rakuten UK",
+            "source_id": 47,
+            "product_count": 176,
+            "group_id": 10022,
+            "type": "products"
+        }
+    ],
+    "result_count": 3
+}
