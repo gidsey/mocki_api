@@ -65,7 +65,7 @@ def compile_yaml():
     }
 
     content = yaml.dump(data, sort_keys=False, default_flow_style=False)
-    with open("/app/.mocki/config3.yml", "w") as config_file:
+    with open("/app/.mocki/config.yml", "w") as config_file:
         config_file.write(content)
 
-        print('config3.yml successfully compiled')
+        print('config.yml successfully compiled')
