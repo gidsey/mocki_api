@@ -103,7 +103,7 @@ def upload_to_s3(merchant, image, key):
         )
 
         aws_path = AWS_S3_ENDPOINT_URL.split('https://', 1)[1]
-        location = f'https://{AWS_BUCKET_NAME}.{aws_path}/mocki/{location}'
+        location = f'https://{AWS_BUCKET_NAME}.{aws_path}/{location}'
 
         return location
 
