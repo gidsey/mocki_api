@@ -30,16 +30,17 @@ def compile_yaml():
     endpoints = []
 
     for filename in os.listdir(data_path):
-        try:
-            print('filename', filename)
-            with open(os.path.join(data_path, filename)) as f:
-                json_data = json.loads(f.read())
-            files.append({
-                'filename': filename,
-                'data': json_data,
-            })
-        except json.decoder.JSONDecodeError as e:
-            print(f'Error in reading json file: {filename}. Error: {str(e)}')
+        if not filename.startswith('.'):
+            try:
+                print('filename', filename)
+                with open(os.path.join(data_path, filename)) as f:
+                    json_data = json.loads(f.read())
+                files.append({
+                    'filename': filename,
+                    'data': json_data,
+                })
+            except json.decoder.JSONDecodeError as e:
+                print(f'Error in reading json file: {filename}. Error: {str(e)}')
 
     for item in files:
         path = f'/{item.get("filename").rsplit(".json", 1)[0]}'
