@@ -1,7 +1,7 @@
 name: mocki
 port: 3000
 endpoints:
-- path: /30119-50-balenciaga
+- path: /30119-10-balenciaga
   method: post
   responses:
   - status code: 200
