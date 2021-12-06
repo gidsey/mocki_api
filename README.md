@@ -2,10 +2,10 @@
 
 [Mocki docs](https://mocki.io/docs)  
 
-###Base URL:  
+Base URL:  
+api.mocki.io/v2/d3d81fe1
 
-api.mocki.io/v2/d3d81fe1    
-
+<hr>
 
 ### Compilation Instructions
 
@@ -16,7 +16,11 @@ docker-compose up
 
 Commit and push the changes to the github repo, the API endpoints will now be available at:
 
-<base_url>/<json_file_name>
+<base_url>/<json_file_name>  
+
+e.g.
+`https://api.mocki.io/v2/d3d81fe1/30119-mens-loafers`
+
 
 
 
