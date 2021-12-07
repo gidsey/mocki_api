@@ -1,0 +1,40 @@
+      {
+    "status": {
+        "network_count": 220,
+        "plan_id": 10100000,
+        "user_id": 52483,
+        "max_total": 10000,
+        "merchant_count": 82551,
+        "max_requests": 100000,
+        "bill_day": 8,
+        "request_count": 1946,
+        "product_count": 740986097,
+        "max_length": 100
+    },
+    "merchants": [
+        {
+            "product_count": 0,
+            "merchant": "Atterley",
+            "merchant_id": 80504,
+            "source_id": 811,
+            "source": "Partnerize UK"
+        }
+    ],
+    "version": "0.3",
+    "length": 1,
+    "found_count": 454,
+    "products": [
+         ],
+    "time": 436,
+    "networks": [
+        {
+            "group": "Rakuten",
+            "source": "Rakuten UK",
+            "source_id": 47,
+            "product_count": 176,
+            "group_id": 10022,
+            "type": "products"
+        }
+    ],
+    "result_count": 0
+}
