@@ -41,7 +41,10 @@ def get_boto_s3_client():
 
 def get_image(url):
     try:
-        response = requests.get(url=url, timeout=5, headers=headers)
+        response = requests.get(url=url, timeout=5, headers=headers, stream=True)
+        if not response.headers['content-type'].lower().startswith('image/'):
+            response.connection.close()
+            return None
     except Exception as e:
         print(f'Error in get_image: {str(e)}')
         return None
@@ -72,10 +75,6 @@ def upload_to_s3(merchant, image, key):
         merchant = merchant.lower().replace(' ', '_')
         key = key.rsplit('?', 1)[0].replace('?', '')
         location = f'mocki/{merchant}/{key}'
-
-        print('merchant', merchant)
-        print('key', key)
-        print('location', location)
 
         # if filename already exists, add unique id to avoid overwriting
         exists = True

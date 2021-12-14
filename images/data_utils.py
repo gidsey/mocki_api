@@ -1,17 +1,15 @@
 import json
 import os
 
-from common.constants import DATA_PATH
 
-
-def get_data_files():
+def get_data_files(path):
     files = []
 
-    for filename in os.listdir(DATA_PATH):
+    for filename in os.listdir(path):
         if not filename.startswith('.'):
             try:
                 print('filename', filename)
-                with open(os.path.join(DATA_PATH, filename)) as f:
+                with open(os.path.join(path, filename)) as f:
                     json_data = json.loads(f.read())
                 files.append({
                     'filename': filename,

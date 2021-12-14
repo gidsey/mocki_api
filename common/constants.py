@@ -1,6 +1,7 @@
 import os
 
 DATA_PATH = '/app/data_mocki/'
+DATA_PATH_EXT = '/app/data_ext/'
 
 AWS_S3_REGION_NAME = os.getenv('AWS_S3_REGION_NAME')
 AWS_S3_ENDPOINT_URL = os.getenv('AWS_S3_ENDPOINT_URL')
