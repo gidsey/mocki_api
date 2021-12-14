@@ -1,4 +1,4 @@
-      {
+{
     "status": {
         "network_count": 220,
         "plan_id": 10100000,
@@ -72,7 +72,7 @@
             "shortdescription": "Tribute 110mm sandals",
             "shippedfrom": "United Kingdom"
         }
-         ],
+    ],
     "time": 436,
     "networks": [
         {

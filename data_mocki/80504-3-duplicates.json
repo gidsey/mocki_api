@@ -72,7 +72,7 @@
             "shortdescription": "Black track trainers",
             "shippedfrom": "United Kingdom"
         },
-                {
+        {
             "merchant": "Farfetch",
             "currencycode": "GBP",
             "color": "Black",
@@ -120,7 +120,7 @@
             "shortdescription": "Black track trainers",
             "shippedfrom": "United Kingdom"
         },
-                {
+        {
             "merchant": "Farfetch",
             "currencycode": "GBP",
             "color": "Black",
@@ -168,7 +168,6 @@
             "shortdescription": "Black track trainers",
             "shippedfrom": "United Kingdom"
         }
-       
     ],
     "time": 276,
     "networks": [

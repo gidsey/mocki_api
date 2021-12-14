@@ -63,5 +63,6 @@ def process_image(v, merchant):
                 print('new location', location)
 
                 # update json image reference in data
-                return location
+                if location:
+                    return location
     return v
